@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset class="pai">
+            <p class="mensagem">CADASTRO GERAL</p>
+            <fieldset class="cadastroGeral">
+
+                <legend>cadastro geral</legend>
+
+                <div class="primeiraSecao">
+                    <fieldset class="dadosPessoais">
+                        <legend>dados pessoais</legend>
+                        <div>
+                            <label for="nome">Nome completo:</label>
+                            <input type="name" id="nome" name="nome">
+                        </div>
+
+                        <div>
+                            <label for="profissao">Profissão:</label>
+                            <input type="text" id="profissao" name="profissao">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="loc">
+                        <legend>localização</legend>
+                        
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        <div>
+                            <label for="rua">Rua:</label>
+                            <input type="rua" name="rua" id="rua">
+                        </div>
+                        
+                    </fieldset>
+                </div>
+
+                <fieldset class="faixaEtaria">
+                    <legend>faixa etária</legend>
+
+                    <div>
+                        <input type="radio" name="idade" id="ate20" value="ate20">
+                        <label for="ate20">Até 20 anos</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="idade" id="20a30" value="20a30">
+                        <label for="20a30">Mais de 20 até 30 anos</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="idade" id="30a40" value="30a40">
+                        <label for="30a40">Mais de 30 até 40 anos</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="idade" id="40a50" value="40a50">
+                        <label for="40a50">Mais de 40 até 50 anos</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="idade" id="50a60" value="50a60">
+                        <label for="50a60">Mais de 50 até 60 anos</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="idade" id="60mais" value="60mais">
+                        <label for="60mais">Mais de 60 anos</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="esportesPraticados">
+                    <legend>esportes que pratica</legend>
+
+                    <div>
+                        <input type="checkbox" name="esporte" id="futebolCampo" value="futebolCampo">
+                        <label for="futebolCampo">Futebol de campo</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="esporte" id="futebolSalao" value="futebolSalao">
+                        <label for="futebolSalao">Futebol de salão</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="esporte" id="futebolSociety" value="futebolSociety">
+                        <label for="futebolSociety">Futebol society</label>
+                    </div>
+        
+                    <div>
+                        <input type="checkbox" name="esporte" id="voleiQudra" value="voleiQudra">
+                        <label for="voleiQuadra">Volei de quadra</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="esporte" id="voleiPraia" value="voleiPraia">
+                        <label for="voleiPraia">Volei de praia</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="esporte" id="natacaoPiscina" value="natacaoPiscina">
+                        <label for="natacaoPiscina">Natação em piscina</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="esporte" id="natacaoMar" value="natacaoMar">
+                        <label for="natacaoMar">Natação em mar aberto</label>
+                    </div>
+
+                </fieldset>
+            </fieldset>
+
+            <fieldset class="comentario">
+                <legend>comentário</legend>
+                <label for="mensagem">Mensagem:</label>
+                <input type="text" name="mensagem" id="mensagem">
+            </fieldset>
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

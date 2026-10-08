@@ -1,0 +1,123 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: rgb(34, 180, 21);
+}
+
+fieldset {
+    border-color: rgb(105, 148, 105, 0.5);
+    color: rgb(22, 99, 22);
+}
+
+legend {
+    text-transform: capitalize;
+    border: 1px solid rgb(105, 148, 105);
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.pai {
+    position: relative;
+    width: 50%;
+    max-width: 900px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: rgba(222, 238, 222, 0.5);
+}
+
+.cadastroGeral {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: block;
+    padding: 30px 10px 20px 10px;
+}
+
+.dadosPessoais {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.loc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.primeiraSecao {
+    display: flex;
+    gap: 5px;
+}
+
+.dadosPessoais input,
+.loc input {
+    width: 100%;
+}
+
+.faixaEtaria {
+    margin-top: 10px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.esportesPraticados {
+    margin-top: 10px;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.comentario textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 5px;
+    resize: vertical;
+}
+
+.botoes {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    gap: 5px;
+}
+
+.mensagem {
+    letter-spacing: 5px;
+    white-space: nowrap;
+    font-size: 35px;
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    writing-mode: vertical-rl;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    word-spacing: 15px;
+}
+
