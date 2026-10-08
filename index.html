@@ -4,30 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table border="1">
-
+    <table class="tabelaAlunos">
+        <caption>Alunos Candiba</caption>
         <thead>
-            <caption>Aluno de ADS 1</caption>
-            <tr>
-                <th>Nome</th>
-                <th>Nota</th>
-                <th>Media Final</th>
-                <th>Classificação</th>
+            <tr class="cabecalho">
+                <th colspan="2" scope="col">Nome</th>
+                <th scope="col">Nota</th>
+                <th scope="col">Media Final</th>
+                <th scope="col">Classificação</th>  
+                <th scope="col">Curso</th>
             </tr>
         </thead>
 
-        <tbody> 
+        <tbody>
+            <tr>
+                <td>Enzo</td>
+                <td>Dias</td>
+                <td class="valor">8.7</td>
+                <td class="valor">9.1</td>
+                <td class="aprovado">Aprovado</td>
+                <td rowspan="4">ADS</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>Carneiro</td>
+                <td class="valor">7.8</td>
+                <td class="valor">7.5</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>            
             <tr>
                 <td>Joao</td>
-                <td>28</td>
-                <td>9</td>
-                <td>8.6</td>
-                <td>Aprovado</td>
+                <td>Santos</td>
+                <td class="valor">3.2</td>
+                <td class="valor">5.3</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Rocha</td>
+                <td class="valor">5.0</td>
+                <td class="valor">5.4</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Rodrigues</td>
+                <td class="valor">9.2</td>
+                <td class="valor">9.0</td>
+                <td class="aprovado">Aprovado</td>
+                <td rowspan="2">SI</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>Donato</td>
+                <td class="valor">4.5</td>
+                <td class="valor">4.8</td>
+                <td class="reprovado">Reprovado</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Nobre</td>
+                <td class="valor">6.5</td>
+                <td class="valor">6.8</td>
+                <td class="aprovado">Aprovado</td>
+                <td rowspan="3">CI</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Costa</td>
+                <td class="valor">8.0</td>
+                <td class="valor">8.1</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>Bertolini</td>
+                <td class="valor">9.5</td>
+                <td class="valor">9.3</td>
+                <td class="aprovado">Aprovado</td>
+            </tr>   
+            <tr>
+                <td>Rafael</td>
+                <td>Alves</td>
+                <td class="valor">6.0</td>
+                <td class="valor">6.2</td>
+                <td class="aprovado">Aprovado</td>
+                <td>EC</td>
             </tr>
         </tbody>
+    </table>
 
+    <table class="tabelaFotos">
+        <caption>Fotos</caption>
+        <tbody>
+            <tr>
+                <td> <img src="imagens/ByDiscord.ggWallpapers-4_upscaled.png" alt=""></td>
+                <td> <img src="imagens/dagrao_upscaled.png" alt=""></td>
+            </tr>
+            <tr>
+                <td> <img src="imagens/preto.png" alt=""></td>
+                <td> <img src="imagens/rojo.png" alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="tabelaProdutos">
+        <caption>Produtos</caption>
+
+        <thead>
+            <tr class="cabecalho">
+                <th scope="col">Nome do Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Arroz</td>
+                <td class="valor">10</td>
+                <td class="valor">R$ 25,00</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Feijão</td>
+                <td class="valor">15</td>
+                <td class="valor">R$ 8,50</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Macarrão</td>
+                <td class="valor">20</td>
+                <td class="valor">R$ 5,00</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Leite</td>
+                <td class="valor">12</td>
+                <td class="valor">R$ 6,50</td>
+                <td>
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
